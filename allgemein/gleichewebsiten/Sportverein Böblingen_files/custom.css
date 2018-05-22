@@ -1,0 +1,189 @@
+/* Have fun adding your style here :) - PS: At all times this file should contain a comment or a rule, otherwise opera might act buggy :( */
+
+/* General Custom CSS */
+
+p{font-size:14px; line-height: 19px;}
+
+h3,h4 {font-size:14px; font-weight:bold !important; text-transform:uppercase;}
+h2{font-size:18px; font-weight:bold; text-transform:uppercase;}
+.flex_column.av_two_third.flex_column_div.av-zero-column-padding.avia-builder-el-8.el_after_av_one_third.avia-builder-el-last{border-left: 1px solid #FFF;
+    padding-left: 15px;
+    margin-left: 15px;
+}
+
+.boxed #wrap_all{padding-top: 80px; padding-bottom:40px;}
+
+/* Navigation */
+
+#top #header .mega_menu_title a {font-size: 14px;}
+.main_menu ul li a {line-height: 55px;}
+
+/* Startseite */
+
+nav.main_menu{height:50px;}
+#header_main .container{height:50px;     line-height: 52px;}
+.main_menu ul:first-child > li a{height: 44px; line-height: 52px;}
+.logo a{height:100px;}
+.logo img{width: 300px;     height: 100px; max-height:100px;}
+.logo, .logo a{height:100px;}
+strong.logo {margin-top: -88px;}
+
+#startbereich{    margin-top: 15px;}
+h2.avia-caption-title{font-weight:normal;}
+#startbereich .flex-cell{padding:0;}
+#startbereich .flex_cell{border:2px solid #FFF;}
+#startbereich .avia-caption{padding:0; bottom:0; margin:0; width:100%; left:0;}
+#startbereich .avia-caption-title{width:100%;}
+#ueberuns .flex_cell{border:2px solid #FFF;}
+#startbereich .avia-content-slider{margin:0px;}
+
+
+#ueberuns ul li{
+    padding: 0;
+    margin: 0 15px 15px 0;
+    text-transform: none;
+}
+
+.home #main{
+	padding-left: 15px !important;
+    padding-right: 15px !important;
+    background-color: #FFF;
+}
+.av-border-top-bottom{border:0px;}
+.container_wrap{border:0px;}
+
+#ueberuns .av_two_fifth .avia-image-container{    top: 27px;}
+#ueberuns .av_three_fifth{padding: 20px 15px 0px 15px !important;}
+#ueberuns p{font-size: 13px; line-height: 18px;}
+.read-more-link{font-size: 13px;}
+
+#footer .widget{margin:0 auto;}
+#footer {padding:0;}
+#menu-footermenu a{color:#0081c7;}
+.footer_color{background-color:#FFF;}
+
+#top .fullsize .template-blog .blog-meta{margin:auto; float:right; margin: 0 0 10px 10px;}
+#main .post-title{font-size:18px; text-transform:uppercase; }
+#top .fullsize .template-blog .post-title{padding:15px 0 0 0; font-size:12px;}
+
+.post-meta-infos {display:none;}
+.pagination {display:none;}
+
+#footer .widget li{clear:none; margin:0 20px;     width: auto;}
+#top .widget_nav_menu li{clear:left; float: left;}
+#footer .widget_nav_menu li{clear:none; float:left;}
+#nav_menu-2{width: 530px; margin:0 auto; }
+#menu-footermenu a{padding: 4px 0px 13px 0;}
+
+/* Navigation */
+.navigation_bg{    position: absolute;     top: 144px;}
+#wrap_all{max-width:1200px; width:100%; margin:0 auto;}
+#main{max-width:1020px; width:100%; margin:0 auto;}
+#main{padding-top:46px;}
+
+#header_main, #header, .header_bg, .header_color .header_bg{background:transparent; background-color:none;}
+#header_main{border-bottom:0px;}
+#header {top:46px;}
+
+#header {
+    position: relative;
+    z-index: 501;
+    width: 100%;
+    background-color: transparent;
+    background-image: url(http://visumedia.de/wordpress/wp-content/uploads/navigation_bg.png);
+    background-size: 100% 100%;
+    z-index: 9999999;
+}
+
+.navigation_bg{display:none;}
+#top {width:1200px !important; max-width:100% !important;}
+
+#top .title_container .container{    padding-top: 20px;}
+.title_container .breadcrumb{margin-top:0;}
+
+#ueberuns .widgettitle{display:none;}
+#ueberuns .widget a{font-size:12px; font-style:normal;}
+.recentcomments, .widget_recent_entries li{padding:3px 0 ; border:0px;}
+.widget_recent_entries li a{font-family:"arial";}
+.recentcomments:first-child {display:none;}
+
+#ueberuns .av_three_fifth .av_one_third{border-right:1px solid #FFF;}
+#top .widget ul{padding:15px 0 0 0;}
+
+.av_seperator_small_border .av-main-nav > li > a > .avia-menu-text{margin-left:0; padding-left:26px;}
+.avia-menu-fx{left:13px;}
+
+#menu-item-search{display:none;}
+nav.main_menu{position:relative; margin:0 auto;}
+span.avia-menu-text{font-weight:normal;}
+#startbereich {border-bottom::0px !important;}
+
+.small-preview{background:none; width:auto; height:auto; border-radius:0px;}
+
+#ueberuns .av_two_fifth{padding:20px 30px !important;}
+
+.main_color .avia-icon-list .iconlist_icon{background-color:#FFF; }
+.avia-icon-list .iconlist_icon{color:#0081c7;}
+
+#startbereich .av_two_fifth a{background-color:#ECEDEE;}
+#startbereich .av_two_fifth{background-color:#ECEDEE;}
+#startbereich .av_two_fifth{padding:5px 0px !important;}
+#startbereich .av_two_fifth .new-special-heading{display:none;}
+
+#top .av-main-nav ul a{text-align:center; font-weight:normal; font-size:13px;}
+#top #header .avia_mega_div > .sub-menu{padding: 5px 10px 5px;}
+
+#ueberuns .av_three_fifth{background-color:#0081c7; color:#FFF;}
+#ueberuns a, #ueberuns h3, #ueberuns .post-title, #ueberuns .avia_textblock p {color:#FFF;}
+
+.main_menu li:hover {color:#fff;}
+.entry-footer{display:none;}
+.recentcomments a, .widget_recent_entries li a {font-style: normal; font-size: 12px;}
+
+
+/* background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(0,129,199,1) 10%, rgba(0,129,199,1) 90%, rgba(255,255,255,0) 100%);
+background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(0,129,199,1) 10%,rgba(0,129,199,1) 90%,rgba(255,255,255,0) 100%);
+background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(0,129,199,1) 10%,rgba(0,129,199,1) 90%,rgba(255,255,255,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=1 ); */
+
+
+/*
+Mobile Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the Mobile and Tablet Portrait view */
+
+@media only screen and (max-width: 995px) {
+
+.av_seperator_small_border .av-main-nav > li > a > .avia-menu-text{padding-left: 12px;}
+.responsive .main_menu ul:first-child > li > a{padding: 0 6px;}
+#startbereich .avia-content-slider-inner a{position:relative;}
+
+}
+
+@media only screen and (max-width: 805px) {
+
+.av_seperator_small_border .av-main-nav > li > a > .avia-menu-text{padding-left:6px;}
+.responsive .main_menu ul:first-child > li > a{padding: 0 3px;}
+
+}
+
+@media only screen and (max-width: 767px) {
+  /* Add your Mobile Styles here */
+
+    #header {z-index: 1; background-image:none;}
+    .avia-content-slider .slide-entry-wrap{width:25%;}
+    #ueberuns .av_three_fifth .av_one_third{border-right:0px;}
+	#ueberuns ul li{margin: 0 15px 0 0;}
+    #footer .container{text-align:center;}
+    #nav_menu-2{width:auto;}
+    #advanced_menu_toggle{top:37%;}
+    #recent-posts-3 {border-bottom:1px solid #FFF;}
+
+	.responsive #top #wrap_all #startbereich.av-flex-cells .no_margin{padding:0 !important;}
+	.avia-content-slider-inner{padding: 0 0 20px 0;}
+	.avia-section{min-height: 70px;}
+	.responsive #top #wrap_all #footer .container{padding: 0; width: 100%; max-width: 100%;}
+	#footer .widget li{float:none;}
+	#menu-footermenu a{font-size: 10px; line-height: 12px; width: auto; padding: 0 4px;}
+
+}

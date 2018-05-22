@@ -1,0 +1,37 @@
+
+
+div.pluginerror { background-color: crimson; color: white; }
+
+textarea.plugininput { height: 16px; }
+textarea.plugininput:focus, .plugininputmax { height: 48px; }
+
+textarea.plugintextarea {
+  width: 400px;
+  height: 300px;
+}
+
+div.pluginedit, div.plugintext {
+	border: 1px solid #828177;
+	padding: 4px 4px 4px 4px;
+	background-color: buttonface;
+}
+
+form.plugineditform {}
+
+div.plugineditcaption { font-size: 14px; font-weight: bold; }
+
+table.pluginedittable {
+	width: 100%;
+}
+table.pluginedittable td {
+	border: 1px solid #828177;
+	padding: 4px 4px 4px 4px;
+	vertical-align: top;
+	font-size: 12px;
+	font-family: tahoma, verdana, arial;
+}
+
+.pluginedittable td.plugincfcap, pluginedittable td.plugincfhint { padding-top: 12px; }
+.pluginedittable td.plugincfcap { font-weight: bold; }
+
+table.pluginedittable td.plugincf {}

@@ -1,0 +1,58 @@
+.calendar_monthyear{
+	text-align:center;
+	color:#FFFFFF;
+	font-weight: bold;
+	font-size: 8pt;
+	background-color: #009900;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	background-image: url(gradient2.png);
+}
+.calendar_daynames {
+	text-align:center;
+	color:#f0f0f0;
+	font-weight: bold;
+	font-size: 7pt;
+	background-image: url(gradient.png);
+}
+.calendar_day{
+text-align:center;
+color:#FFFFFF;
+font-size: 7pt;
+}
+.calendar_noday{
+}
+.calendar_today{
+vertical-align:middle;
+text-align:center;
+font-size: 7pt;
+color:#ffffff;
+border-width: 1px;
+border-color: #00CC00;
+border-style: solid;
+}
+.calendar_eventday a:link,.calendar_eventday a:visited{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+text-decoration: none;
+text-align: center;
+font-weight: bold;
+font-size: 10pt;
+font-style: normal;
+color:#FFFFFF;
+}
+.calendar_eventday a:active,.calendar_eventday a:hover{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+text-decoration: none;
+text-align: center;
+font-weight: bold;
+font-size: 7pt;
+font-style: normal;
+color:#00CC00;
+}
+.calendar_main{
+	text-align: center;
+	color:#FFFFFF;
+	background:#4D4EB8;
+	width: 80%;
+	height: 150px;
+}

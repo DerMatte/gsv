@@ -1,0 +1,44 @@
+/* line 1, main.sass */
+body {
+  background-color: lightgreen;
+  padding: 0;
+  margin: auto 0;
+  font-style: 16px; }
+
+/* line 8, main.sass */
+.welcomepic {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  max-height: 55em;
+  display: flow-root; }
+
+/* line 16, main.sass */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #222333;
+  top: 0; }
+
+/* line 24, main.sass */
+li {
+  float: left;
+  position: -webkit-sticky;
+  position: sticky; }
+  /* line 28, main.sass */
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 2em 4em;
+    text-decoration: none; }
+
+/* line 36, main.sass */
+.ban {
+  height: 60em;
+  width: 100%;
+  background-color: #667788; }
+
+/*# sourceMappingURL=main.css.map */

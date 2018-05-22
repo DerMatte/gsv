@@ -1,0 +1,208 @@
+/**** media queries ***/
+
+/* for 960px or less */
+@media screen and (max-width: 960px) {
+	#Email input.text, #Password input.text, #Name input.text {
+		width: 80%;
+	}
+	body {
+		color: #444444;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 100%;
+		max-width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	
+	p, a, span, div, li, footer p, footer ul li a {
+		font-size: 100%;
+		line-height: auto;
+	}
+	h1 {
+		font-size: 120%;
+		line-height: auto;
+	}
+	h2,
+	.marginCol h2 {
+		font-size: 120%;
+		line-height: auto;
+	}
+	h3 {
+		font-size: 110%;
+		line-height: auto;
+	}
+	h4 {
+		font-size: 110%;
+		line-height: auto;
+	}
+	h5 {
+		font-size: 110%;
+		line-height: auto;
+	}
+	h6,
+	.mainContent.news .newsrow h6 {
+		font-size: 110%;
+		line-height: auto;
+	}
+	footer {
+		background: #CCCCCC;
+		border-top: 1px solid #BBBBBB;
+		margin: 2% 0 2%;
+	}
+	#left {
+		float: none;
+		width: auto;
+	}
+	
+		
+	footer {
+		padding: 15px;
+	}
+	
+	
+	.white {
+		padding: 0 15px;
+	}
+	
+	
+	#mobile_col {
+		padding: 0 15px;
+	}
+	
+	#mobileNavigation h6 {
+		padding: 15px;
+	}
+	
+	
+	
+	.psvcontainer,  .mainContent,  .marginCol,  .psvslider {
+		width: 100%;
+	}
+	#left, #logo, .psvslider, .marginCol.listing, header {
+		display:none;
+	}
+	.mobilestruct, #psvslider-mobile, #mobile_col .marginCol.listing {
+		display:block;
+	}
+	.psvcontainer, #content, #logo {
+		max-width: 100%;
+		height: auto;
+	}
+	html, body {
+		max-width: 100%;
+		height: auto;
+		padding: 0;
+		margin: 0;
+		overflow-x: hidden;
+	}
+	.flexslider .slides img, img {
+		max-width: 100%;
+		height: auto;
+	}
+	.leftNav {
+		border-top: none;
+		margin-top: 0;
+		margin: 0.5% 0;
+	}
+	.box h2, .marginCol h2, .mainContent h2 {
+		padding: 3% 0 0;
+	}
+	
+	footer p, footer ul {
+		float: none;
+	}
+	.HomePage .marginCol, .marginCol {
+		margin-top: 2%;
+		padding-top:20px;
+		float: none;
+	}
+	#mobile_col {
+		background:white;
+	}
+	.marginCol h2 {
+		padding: 0;
+	}
+	.mainContent {
+		margin: 0 420px 0 0;
+		padding: 20px 0;
+	}
+	.box h1, .marginCol h1, .mainContent h1 {
+		padding: 1% 0 1%;
+	}
+	.box h2, .marginCol h2, .mainContent h2 {
+		padding: 1% 0 1%;
+	}
+	#mobileNavigation {
+		margin: 0 0 1% 0;
+	}
+	#mobileNavigation h6 {
+		font-weight:normal;
+		cursor:pointer;
+		-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+		-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+		box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+		border-bottom: 1px solid #d0d0d0;
+		white-space:nowrap;
+		background: #E2E2E2;
+		background: -webkit-gradient(linear, 0 0, 0 bottom, from(#FFFFFF), to(#E2E2E2));
+		background: -webkit-linear-gradient(#FFFFFF, #E2E2E2);
+		background: -moz-linear-gradient(#FFFFFF, #E2E2E2);
+		background: -ms-linear-gradient(#FFFFFF, #E2E2E2);
+		background: -o-linear-gradient(#FFFFFF, #E2E2E2);
+		background: linear-gradient(#FFFFFF, #E2E2E2);
+	}
+	
+	#mobileNavigation h6:hover {
+		background: #CCCCCC;
+		background: -webkit-gradient(linear, 0 0, 0 bottom, from(#E3E3E3), to(#CCCCCC));
+		background: -webkit-linear-gradient(#E3E3E3, #CCCCCC);
+		background: -moz-linear-gradient(#E3E3E3, #CCCCCC);
+		background: -ms-linear-gradient(#E3E3E3, #CCCCCC);
+		background: -o-linear-gradient(#E3E3E3, #CCCCCC);
+		background: linear-gradient(#E3E3E3, #CCCCCC);
+		-pie-background: linear-gradient(#E3E3E3, #CCCCCC);
+	}
+	
+	.leftNav li.current, .leftNav li:hover {
+		background: none;
+	}
+	.leftNav li.space {
+		border-top: 0;
+		margin-top: 0;
+	}
+	.leftNav li, .leftNav li.space {
+		border: none;
+		float: left;
+		display: inline-block;
+		outline: none;
+		cursor: pointer;
+		margin: 0% 1%;
+		padding: 2% 0 1% 0;
+		line-height: 140%;
+	}
+	.leftNav li a {
+		color:#1E4E98;
+		text-transform:none;
+		background: url("../images/arrow_link.png") no-repeat scroll 0 8px transparent;
+		color: #1E4E98;
+		padding-left: 9px;
+		line-height: 120%;
+	}
+	#mobileNavigation .leftNav {
+		display:none;
+		padding: 1%;
+		background:white;
+		white-space:nowrap;
+		width: 100%;
+	}
+	#mobileNavigation .leftNav.show {
+		display:block;
+	}
+	.switchmtheme {
+		display:none;
+	}
+	
+	#psvslider-mobile img {
+		display:none;		
+	}
+}
